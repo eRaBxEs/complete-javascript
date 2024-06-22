@@ -43,12 +43,27 @@ year = 1991;
 console.log(typeof year);
 
 // legacy bug in javascript
-console.log(typeof null)
+console.log(typeof null);
 
-console.log(typeof undefined)
-console.log(typeof Boolean)
-console.log(typeof String)
-console.log(typeof Number)
+console.log(typeof undefined);
+console.log(typeof Boolean);
+console.log(typeof String);
+console.log(typeof Number);
+
+
+// variable mutation
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+
+// using var
+var job = 'programmer';
+job = 'teacher';
+
+// wrong way 
+lastName = 'Erabor';
+console.log(lastName);
 
 
 
