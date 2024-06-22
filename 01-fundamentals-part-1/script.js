@@ -19,21 +19,21 @@ let myCurrentJob = 'Teacher';
 let job1 = 'programmer';
 let job2 = 'teacher';
 
-console.log(myFirstJob)
+console.log(myFirstJob);
 
 
 // Data type
 let javaScriptIsFun = true;
-console.log(javaScriptIsFun)
+console.log(javaScriptIsFun);
 
-console.log(typeof true)
-console.log(typeof javaScriptIsFun)
-console.log(typeof 23)
-console.log(typeof 'Ehioje')
+console.log(typeof true);
+console.log(typeof javaScriptIsFun);
+console.log(typeof 23);
+console.log(typeof 'Ehioje');
 
 // Showing the dynamic nature of javascript
-javaScriptIsFun = 'YES!'
-console.log(typeof javaScriptIsFun)
+javaScriptIsFun = 'YES!';
+console.log(typeof javaScriptIsFun);
 
 
 
