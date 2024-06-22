@@ -35,5 +35,12 @@ console.log(typeof 'Ehioje');
 javaScriptIsFun = 'YES!';
 console.log(typeof javaScriptIsFun);
 
+// value and type is undefined
+let year;
+console.log(typeof year);
+
+year = 1991;
+console.log(typeof year)
+
 
 
