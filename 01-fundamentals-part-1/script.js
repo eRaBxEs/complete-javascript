@@ -45,6 +45,10 @@ console.log(typeof year);
 // legacy bug in javascript
 console.log(typeof null)
 
+console.log(typeof undefined)
+console.log(typeof Boolean)
+console.log(typeof String)
+console.log(typeof Number)
 
 
 
