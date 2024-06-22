@@ -40,7 +40,11 @@ let year;
 console.log(typeof year);
 
 year = 1991;
-console.log(typeof year)
+console.log(typeof year);
+
+// legacy bug in javascript
+console.log(typeof null)
+
 
 
 
