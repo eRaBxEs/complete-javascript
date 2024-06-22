@@ -31,5 +31,9 @@ console.log(typeof javaScriptIsFun)
 console.log(typeof 23)
 console.log(typeof 'Ehioje')
 
+// Showing the dynamic nature of javascript
+javaScriptIsFun = 'YES!'
+console.log(typeof javaScriptIsFun)
+
 
 
