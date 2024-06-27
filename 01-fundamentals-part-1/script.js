@@ -65,5 +65,34 @@ job = 'teacher';
 lastName = 'Erabor';
 console.log(lastName);
 
+// Maths Operator
+const now = 2037;
+const ageVictoria = now - 1992;
+const ageHenry = now - 1983;
+console.log(ageHenry, ageVictoria);
+
+console.log(ageHenry * 2, ageHenry / 10, 2 ** 3);
+
+// showing concatenation 
+const first_Name = 'Ehioje';
+const last_Name = 'Erabor';
+console.log(first_Name + "  " + last_Name);
+
+// showing more operators
+let x = 10 + 5; // 15
+x += 10; // x = x + 10
+x *= 4; // x = x * 4
+x++; // x = x + 1
+x--; // x = x - 1
+x--; // x = x - 1
+console.log(x);
+
+// Comparison operators
+console.log(ageHenry > ageVictoria);
+console.log(ageVictoria >= 18);
+const isFullAge = ageVictoria >= 18;
+
+console.log(now - 1983 > now - 1992)
+
 
 
