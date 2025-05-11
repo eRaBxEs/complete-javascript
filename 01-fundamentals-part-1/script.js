@@ -21,6 +21,10 @@ let job2 = 'teacher';
 
 console.log(myFirstJob);
 
+// undefined: value taken by a variable that is not yet defined (empty)
+let children;
+console.log(children)
+
 
 // Data type
 let javaScriptIsFun = true;
