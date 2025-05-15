@@ -90,6 +90,14 @@ x++; // x = x + 1
 x--; // x = x - 1
 x--; // x = x - 1
 console.log(x);
+// is this below valid ?
+++x;
+console.log(x, "1: here after using a pre-increment");
+console.log(x, "2: here after using a pre-increment");
+
+--x;
+console.log(x, "1: here after using a pre-decrement");
+console.log(x, "2: here after using a pre-decrement");
 
 // Comparison operators
 console.log(ageHenry > ageVictoria);
