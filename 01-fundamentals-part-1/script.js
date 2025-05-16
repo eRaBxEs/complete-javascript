@@ -120,3 +120,14 @@ console.log(ageHenry, ageVictoria, averageAge);
 // with paranthesis: correct approach
 const averageAgeAgain = ageHenry + ageVictoria / 2;
 console.log(ageHenry, ageVictoria, averageAgeAgain);
+
+// challenge 1:
+console.log('challenge 1:')
+const markMass, markHeight, markBMI;
+const johnMass, johnHeight, johnBMI;
+
+
+markBMI = markMass / (markHeight * markHeight);
+johnBMI = johnMass / (johnHeight * johnHeight);
+
+const markHigherBMI = markBMI > johnBMI;
