@@ -122,12 +122,13 @@ const averageAgeAgain = ageHenry + ageVictoria / 2;
 console.log(ageHenry, ageVictoria, averageAgeAgain);
 
 // challenge 1:
-console.log('challenge 1:')
-const markMass, markHeight, markBMI;
-const johnMass, johnHeight, johnBMI;
+let massMark = 78;
+let heightMark = 1.69;
+let massJohn = 92;
+let heightJohn = 1.95;
 
+const BMIJohn = massJohn / (heightJohn * heightJohn);
 
-markBMI = markMass / (markHeight * markHeight);
-johnBMI = johnMass / (johnHeight * johnHeight);
+const BMIMark = massMark / (heightMark * heightMark);
 
-const markHigherBMI = markBMI > johnBMI;
+console.log(BMIMark);
