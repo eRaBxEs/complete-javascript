@@ -107,4 +107,16 @@ const isFullAge = ageVictoria >= 18;
 console.log(now - 1983 > now - 1992)
 
 
+// Operator precedence
+let p, q;
+p = q = 25 - 10 - 5, 7; // left to right
 
+console.log(p, q)
+
+// without paranthesis: wrong approach
+const averageAge = ageHenry + ageVictoria / 2;
+console.log(ageHenry, ageVictoria, averageAge);
+
+// with paranthesis: correct approach
+const averageAgeAgain = ageHenry + ageVictoria / 2;
+console.log(ageHenry, ageVictoria, averageAgeAgain);
